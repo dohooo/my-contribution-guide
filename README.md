@@ -100,6 +100,12 @@ This will let GitHub know the issues are linked, and automatically close them on
 
 It's ok to have multiple commits in a single PR, you don't need to rebase or force push for your changes as we will use `Squash and Merge` to squash the commits into one commit when merging.
 
+### Create a changeset
+In the end, don't forget to create a changeset for your changes. And we follow the [semver](https://semver.org/) specification.
+```shell
+pnpm changeset
+```
+
 ## 🧑‍🔧 Maintenance
 
 This section is for maintainers with write access, or if you want to maintain your own forks.
